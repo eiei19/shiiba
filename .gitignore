@@ -3,5 +3,5 @@
 /vendor/bundler
 /public/uploads
 /public/system
-/confing/secrets.yml
-/confing/database.yml
+/config/secrets.yml
+/config/database.yml
