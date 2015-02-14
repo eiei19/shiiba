@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title
+      Shiiba
+    %meta{:charset => "utf-8"}
+    = stylesheet_link_tag 'application', media: 'screen'
+    = csrf_meta_tags
+  %body
+    = yield
+
+  = javascript_include_tag 'application'
+  - if @content_for_javascript
+    =@content_for_javascript

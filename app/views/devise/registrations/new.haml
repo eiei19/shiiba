@@ -1,0 +1,13 @@
+%h2
+  登録画面だよ
+
+= form_for resource, url: account_registration_path do |f|
+  = devise_error_messages!
+
+  = f.label :email, "メールアドレス"
+  = f.email_field :email, autofocus: true
+
+  = f.label :password, "パスワード"
+  = f.password_field :password, autocomplete: "off"
+
+  = f.submit "登録する"
