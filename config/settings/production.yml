@@ -1,0 +1,5 @@
+main:
+  service_name: '[dev]shiiba'
+
+aws:
+  ses_from_email: 'info@shiiba.me'
