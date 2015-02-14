@@ -1,1 +1,1 @@
-MyApp::Application.config.secret_token = ENV['SECRET_KEY_BASE'] if Rails.env.production?
+Shiiba::Application.config.secret_token = ENV['SECRET_KEY_BASE'] if Rails.env.production?
